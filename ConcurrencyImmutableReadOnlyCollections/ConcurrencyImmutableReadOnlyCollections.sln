@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyImmutableReadOnlyCollections", "ConcurrencyImmutableReadOnlyCollections\ConcurrencyImmutableReadOnlyCollections.csproj", "{0E003A68-45CA-4D76-9772-56D4A4106C8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{50119EA9-3C5F-459B-BA0D-2D7E57B60E13}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadOnlyCollections", "ReadOnlyCollections\ReadOnlyCollections.csproj", "{74E2AF29-08E4-4722-AC1D-671969ACBC3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{164AB356-1878-484A-9C7D-37D235C30AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableCollections", "ImmutableCollections\ImmutableCollections.csproj", "{1D59FEF1-752E-4733-A0AF-CC0D14E77E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency", "Concurrency\Concurrency.csproj", "{C394FFE1-F5F5-4F4A-97E5-DAC787EEE362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E003A68-45CA-4D76-9772-56D4A4106C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E003A68-45CA-4D76-9772-56D4A4106C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E003A68-45CA-4D76-9772-56D4A4106C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E003A68-45CA-4D76-9772-56D4A4106C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74E2AF29-08E4-4722-AC1D-671969ACBC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74E2AF29-08E4-4722-AC1D-671969ACBC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74E2AF29-08E4-4722-AC1D-671969ACBC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74E2AF29-08E4-4722-AC1D-671969ACBC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{164AB356-1878-484A-9C7D-37D235C30AE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{164AB356-1878-484A-9C7D-37D235C30AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{164AB356-1878-484A-9C7D-37D235C30AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{164AB356-1878-484A-9C7D-37D235C30AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D59FEF1-752E-4733-A0AF-CC0D14E77E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D59FEF1-752E-4733-A0AF-CC0D14E77E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D59FEF1-752E-4733-A0AF-CC0D14E77E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D59FEF1-752E-4733-A0AF-CC0D14E77E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C394FFE1-F5F5-4F4A-97E5-DAC787EEE362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C394FFE1-F5F5-4F4A-97E5-DAC787EEE362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C394FFE1-F5F5-4F4A-97E5-DAC787EEE362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C394FFE1-F5F5-4F4A-97E5-DAC787EEE362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8783682-DE3A-41F6-B7E4-BA909F2414E8}
+	EndGlobalSection
+EndGlobal
