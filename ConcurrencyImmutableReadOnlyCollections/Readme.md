@@ -35,7 +35,7 @@ Read-only collections can be modified - if you have a reference to the underlyin
 
 and ReadOnlyCollection<T> objects does not expose methods that modify the collection.
 ```
-![Read-only](ReadOnlyCollectionExplaned2.jpg)
+![Read-only](ReadOnlyCollectionExplaned2.JPG)
 ![Read-only2](ReadOnlyCollection.JPG)
 
 ## Immutable collections
